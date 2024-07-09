@@ -1,0 +1,128 @@
+
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  /* nav section style */
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin:0px 190px;
+  }
+  .nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+ nav button{
+   background: none;
+   padding: 17px 24px !important;
+   border-radius: 8px;
+   border: 1px solid #0D1321;
+}
+nav .resume-btn{
+    font-size: 20px;
+    color: #0D1321;
+    font-weight: 600;
+    line-height: 23px;
+    text-decoration: none;
+}
+/* Hero secetion style */
+.banner{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 10%;
+    background: url(../images/Hero-bg.png);
+    background-size: cover ;
+}
+.banner-content{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.banner-image{
+    margin-top: 26px;
+}
+.banner-title h3{
+    font-size: 48px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+.banner-description{
+    font-size: 16px;
+    color: #0D1321;
+    padding: 0px 30px;
+    margin-bottom: 32px;
+}
+.contact-btn button{
+    background: #0D1321;
+   padding: 17px 24px !important;
+   border-radius: 8px;
+   border: none;
+   margin-bottom: 44px;
+}
+.contact-btn a{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-decoration: none;  
+}
+/* development section style */
+.development{
+    border-radius: 16px;
+    padding: 74px 152px;
+}
+.development-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 24px; 
+}
+.development-description{
+    margin-bottom: 48px;
+    font-size: 16px;
+    color: #0D1321;
+    padding: 0px 48px;
+}
+.development-container{
+    padding: 48px;
+    background-color:rgba(13, 19, 33, 0.02);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.development-content{
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    padding: 2px !important;
+    margin-top: 32px;
+    background: rgba(255, 255, 255, 1.00);
+    gap: 10px;
+}
+.development-details{
+    margin-left: 5px;
+    display: flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items: flex-start;
+ text-align: start;
+}
+.learn-btn button{
+    background: #fff;
+    padding: 12px 18px !important;
+    border-radius: 8px;
+    border:1px solid #0D1321;
+    margin-bottom: 44px;
+    margin-top: 24px;
+}
+.learn-btn a{
+    font-size: 18px;
+    color: #0D1321;
+    font-weight: 600;
+    text-decoration: none;
+
+}
