@@ -10,6 +10,7 @@
     align-items: center;
     justify-content:space-between;
     margin:0px 190px;
+    height: 131px;
   }
   .nav-title{
     font-weight: 800;
@@ -73,15 +74,15 @@ nav .resume-btn{
 /* development section style */
 .development{
     border-radius: 16px;
-    padding: 74px 152px;
+    padding: 74px 150px;
 }
-.development-title{
+.development-title, .inspiration-title{
     font-size: 32px;
     font-weight: 800;
     color: #0D1321;
     margin-bottom: 24px; 
 }
-.development-description{
+.development-description, .inspiration-description{
     margin-bottom: 48px;
     font-size: 16px;
     color: #0D1321;
@@ -106,10 +107,10 @@ nav .resume-btn{
 .development-details{
     margin-left: 5px;
     display: flex;
- flex-direction:column;
- justify-content:center;
- align-items: flex-start;
- text-align: start;
+    flex-direction:column;
+    justify-content:center;
+    align-items: flex-start;
+    text-align: start;
 }
 .learn-btn button{
     background: #fff;
@@ -124,5 +125,120 @@ nav .resume-btn{
     color: #0D1321;
     font-weight: 600;
     text-decoration: none;
+}
+/* inspiration style */
+.inspiration{
+    border-radius: 16px;
+    padding: 74px 150px 0px 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 
+}
+.inspiration-video{
+    border-radius: 16px;
+    border: .5px solid rgba(13, 19, 33, 0.20);
+    padding: 32px;
+}
+.inspiration-video .video{
+    width: 100%;
+    border-radius: 16px;
+}
+/* target section style */
+.target{
+    padding:  74px 150px 0px 150px;
+    margin-bottom: 30px;
+    
+}
+.target-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    text-align: center; 
+}
+.target-description, .support-description{
+    margin-bottom: 48px;
+    font-size: 16px;
+    color: #0D1321; 
+    text-align: center; 
+}
+.target-content{
+    display: flex;
+    gap:32px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow:0 6px 50px 0  rgb(251, 247, 247);
+}
+.card1-bg{
+    background: rgba(255, 76, 30, 0.09);
+}
+.card2-bg{
+    background: rgba(0, 76, 232, 0.05);
+}
+.card3-bg{
+    background: rgba(255, 223, 0, 0.09);
+}
+/* support style */
+.support{
+    border-radius: 16px;
+    margin: 45px 150px 79px 150px;
+    background-image: url(../images/handshake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:314px;
+    align-items: center;
+    padding: 100px 150px;
+}
+.support-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+}
+.support-description{
+    font-size: 16px;
+    color: #FFFFFF; 
+    text-align: center;
+    margin-bottom: 24px; 
+}
+.support-input{
+    margin-top: 50px;
+    display: flex;
+    gap: 16px;
+}
+.support-input input{
+    height: 58px;
+    border-radius: 8px;
+    width:545px;
+    border: none;
+}
+.support-input  .input-text{
+    padding-left: 20px;
+}
+.support-input .input-btn{
+    font-size: 20px;
+    font-weight: 600;
+    width: 120px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+}
+/* footer style */
+footer{
+    background:rgba(13, 19, 33, 0.02) ;
+    padding:32px 150px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    
+}
+footer img{
+    margin-right: 5px;
+}
+.footer-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
 }
